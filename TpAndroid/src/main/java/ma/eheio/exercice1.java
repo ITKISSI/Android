@@ -2,7 +2,7 @@ package ma.eheio;
 
 public class exercice1 {
 
-    public static boolean compare(int number)
+    public static boolean isPalindrome(int number)
     {
         int initinalNumber=number;
         int finalNumber=0;
@@ -13,6 +13,8 @@ public class exercice1 {
             finalNumber=finalNumber*10 + devidedNumber;
             initinalNumber =initinalNumber/10;
         }
-         return number == finalNumber;
+        return number == finalNumber;
+
+
     }
 }
